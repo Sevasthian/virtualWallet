@@ -1,0 +1,247 @@
+<<<<<<< HEAD
+@import url(variables.css);
+=======
+@import url(variables.css);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--color-10);
+}
+.Header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 55px;
+    overflow: hidden;
+    padding: var(--space-layout-padding-lr);
+    color: var(--color-1);
+}
+.headerLeft{
+    display: flex;
+    align-items: center;
+    font-family: Bold;
+    font-size: 18px;
+    gap: 8px;
+}
+.HeaderTop{
+    padding: var(--space-layout-padding-lr);
+    font-family: Bold;
+    font-size: 19px;
+    color: var(--color-1);
+
+}
+.HeaderTop h3{
+    margin-bottom: 15px;
+    margin-top: 25px;
+
+}
+.HeaderBottom{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    position: relative;
+    border-radius: 45px;
+    box-shadow: 0 0 32px var(--color-3);
+    padding: 20px 2px;
+    overflow: hidden;
+    background-color: var(--color-8);
+}
+.pig{
+    position: absolute;
+    background-color: var(--color-7);
+    border-radius: 100%;
+    width: 400px;
+    height: 400px;
+    right: 55%;
+    top: -50%;
+    color: var(--color-1);
+}
+.imgPig{
+    position: relative;
+    grid-area: 1/1/2/2;
+}
+.textRight{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    left: -150px;
+}
+.textRight h3{
+    font-family: Bold;
+    font-size: 21px;
+}
+.textRight span{
+    font-family: Regular;
+    font-size: 18px;
+    color: var(--color-6);
+}
+#b1{
+    position: absolute;
+    background-color: var(--color-2);
+    border-radius: 100%;
+    border: none;
+    color: var(--color-4);
+    width: 25px;
+    height:25px;
+    top: 0;
+    right: 0;
+    margin: 20px;
+    font-size: 14px;
+    font-family: Bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#b1:hover{
+    transform: scale(1.01);
+    background-color: green;
+    
+}
+#b2{
+    background-color: var(--color-2);
+    border: none;
+    color: var(--color-4);
+    height: 40px;
+    width: 150px;
+    border-radius: 50px 50px;
+    font-size: 15px;
+}
+
+#b2:hover{
+    transform: scale(1.01);
+    background-color: green;
+    
+}
+
+.main{
+    padding: var(--space-layout-padding-lr);
+    color: var(--color-1);
+}
+.ArticleCard{
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    gap: 15px;
+    padding-bottom: 110px;
+}
+.Card1{
+    background-color: var(--color-1);
+    background-image: url(../storage/img/detail/Ellipses.svg);
+    background-size: cover;
+    object-fit: fill;
+    padding: 25px;
+    border-radius: 20px;
+    width: 300px;
+}
+.Card1:hover{
+    transform: scale(1.02);
+    background-color: var(--color-9);
+}
+.Card2{
+    background-color: var(--color-1);
+    background-image: url(../storage/img/detail/Ellipses.svg);
+    background-size: cover;
+    object-fit: contain;
+    padding: 25px;
+    border-radius: 20px;
+    width: 300px;
+}
+.Card2:hover{
+    transform: scale(1.02);
+    background-color: var(--color-9);
+}
+.CardHalf{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-4);
+    font-family: Bold;
+    padding: 80px 40px;
+}
+.CardHalf span{
+    font-size: 35px;
+}
+.CardHalf small{
+    font-size: 23px;
+}
+.CardTop{
+    display: flex;
+    justify-content: space-between;
+    color: var(--color-4);
+    font-family: Semibold;
+}
+.Card2 .CardLogo{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: end;
+    position: relative;
+    transform: translateY(50%);
+}
+.Card1 .CardLogo{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: end;
+    position: relative;
+    transform: translateY(160%);
+}
+.Header2{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-family: Bold;
+    font-size: 19px;
+}
+
+
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.footer_ul{ display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: var(--color-1);
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.footer_ul a {
+    display: flex;
+}
+.footer_ul a #img{
+    object-fit: contain;
+    filter: grayscale(100%) invert(100%);
+    
+}
+<<<<<<< HEAD
+>>>>>>> f7a7f97 (feat: :art: Colors and some designs were changed)
+=======
+
+/* @media (max-width: 500px){
+    .ArticleCard {
+        display: flex;
+        flex-direction: row;
+        overflow-x: scroll;
+        gap: 15px;
+        padding-bottom: 105px;
+    }
+    .Card1 .CardLogo {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: end;
+        position: relative;
+        transform: translateY(20%);
+    }
+} */
+>>>>>>> 8b7ef00 (style: :camera_flash: The pages were designed but a little more is missing)
