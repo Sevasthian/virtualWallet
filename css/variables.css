@@ -1,0 +1,31 @@
+:root{
+    --color-1:#33404F;
+    --color-1:#00DDA3;
+    --color-1:#B5C5C3;
+    --space-layout-padding-lr: 0px 15px;
+    --space-layout-padding-t: 5px; 
+}
+@font-face {
+    font-family:Bold ;
+    src: url(../storage/font/SF-Pro-Text-Bold.otf);
+}
+@font-face {
+    font-family: Heavy ;
+    src: url(../storage/font/SF-Pro-Text-Heavy.otf);
+}
+@font-face {
+    font-family:Light ;
+    src: url(../storage/font/SF-Pro-Text-Light.otf);
+}
+@font-face {
+    font-family:Medium;
+    src: url(../storage/font/SF-Pro-Text-Medium.otf);
+}
+@font-face {
+    font-family:Roboto Bold;
+    src: url(../storage/font/Roboto/Roboto-Bold.ttf);
+}
+@font-face {
+    font-family:Semibold;
+    src: url(../storage/font/SF-Pro-Text-Semibold.otf);
+}
