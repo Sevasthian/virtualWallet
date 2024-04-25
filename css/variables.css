@@ -1,0 +1,179 @@
+:root{
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    --color-1:#33404F;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 33376ce (relace: :bookmark: Second version of the home page)
+=======
+    --color-1:#33404F;
+>>>>>>> 9b79c03 (relace: :bookmark: First version of the third page styles)
+=======
+    --color-1:#33404F;
+<<<<<<< HEAD
+>>>>>>> b1696fc (relace: :bookmark: First version of the second page styles)
+    --color-1:#00DDA3;
+    --color-1:#B5C5C3;
+    --space-layout-padding-lr: 0px 15px;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> b1696fc (relace: :bookmark: First version of the second page styles)
+    --color-2:#00DDA3;
+    --color-3:#b5c5c3c2;
+    --color-4:white;
+    --color-5:rgb(254, 254, 254);
+    --color-6:#acb1b0;
+    --color-7:#E1FFEF;
+=======
+<<<<<<< HEAD
+>>>>>>> 33376ce (relace: :bookmark: Second version of the home page)
+=======
+>>>>>>> 9b79c03 (relace: :bookmark: First version of the third page styles)
+=======
+>>>>>>> b1696fc (relace: :bookmark: First version of the second page styles)
+    --color-1:#006400;
+    --color-2:#002244;
+    --color-3:#666666;
+    --color-4:#FFFFFF;
+<<<<<<< HEAD
+    --color-5:#FFFF99;
+    --color-6:#C0C0C0;
+    --color-7:#FFD700;
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f7a7f97 (feat: :art: Colors and some designs were changed)
+>>>>>>> 33376ce (relace: :bookmark: Second version of the home page)
+=======
+=======
+>>>>>>> f290bde (relace: :bookmark: First version of the first page styles)
+=======
+=======
+>>>>>>> 9b79c03 (relace: :bookmark: First version of the third page styles)
+    --color-1:#012B35;
+    --color-2:#7FBF90;
+    --color-3:#07123A;
+    --color-4:#FFFFFF;
+=======
+<<<<<<< HEAD
+    --color-5:#FFFF99;
+    --color-6:#C0C0C0;
+    --color-7:#FFD700;
+>>>>>>> f7a7f97 (feat: :art: Colors and some designs were changed)
+=======
+>>>>>>> b1696fc (relace: :bookmark: First version of the second page styles)
+    --color-5:#4F9F64;
+    --color-6:#07123A;
+    --color-7:#004011;
+    --color-8:#e2f7de;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 9b79c03 (relace: :bookmark: First version of the third page styles)
+>>>>>>> 65ab3bf (style: :construction: Design edits were made but need to be finished)
+=======
+=======
+>>>>>>> b1696fc (relace: :bookmark: First version of the second page styles)
+    --color-9:#145768;
+    --color-10:#bed6c5;
+>>>>>>> 8b7ef00 (style: :camera_flash: The pages were designed but a little more is missing)
+    --space-layout-padding-lr: 0px 25px;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f7a7f97 (feat: :art: Colors and some designs were changed)
+=======
+>>>>>>> 5cabfba (feat: :construction: I started making the second page, I already made the structure and the logo header, I added missing images)
+>>>>>>> 33376ce (relace: :bookmark: Second version of the home page)
+=======
+    --space-layout-padding-lr: 0px 25px;
+>>>>>>> f290bde (relace: :bookmark: First version of the first page styles)
+=======
+>>>>>>> f7a7f97 (feat: :art: Colors and some designs were changed)
+>>>>>>> 9b79c03 (relace: :bookmark: First version of the third page styles)
+=======
+>>>>>>> 5cabfba (feat: :construction: I started making the second page, I already made the structure and the logo header, I added missing images)
+>>>>>>> b1696fc (relace: :bookmark: First version of the second page styles)
+    --space-layout-padding-t: 5px; 
+}
+@font-face {
+    font-family:Bold ;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 9b79c03 (relace: :bookmark: First version of the third page styles)
+=======
+>>>>>>> b1696fc (relace: :bookmark: First version of the second page styles)
+    src: url(../storage/font/SF-Pro-Text-Bold.otf);
+}
+@font-face {
+    font-family: Heavy ;
+    src: url(../storage/font/SF-Pro-Text-Heavy.otf);
+}
+@font-face {
+    font-family:Light ;
+    src: url(../storage/font/SF-Pro-Text-Light.otf);
+}
+@font-face {
+    font-family:Medium;
+    src: url(../storage/font/SF-Pro-Text-Medium.otf);
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    src: url(../storage/font/Cinzel/static/Cinzel-Bold.ttf);
+}
+@font-face {
+    font-family: Heavy ;
+    src: url(../storage/font/Cinzel/static/Cinzel-Regular.ttf);
+}
+@font-face {
+    font-family:Light ;
+    src: url(../storage/font/Cinzel/static/Cinzel-Black.ttf);
+}
+@font-face {
+    font-family:Medium;
+    src: url(../storage/font/Cinzel/static/Cinzel-Medium.ttf);
+>>>>>>> f290bde (relace: :bookmark: First version of the first page styles)
+=======
+>>>>>>> 9b79c03 (relace: :bookmark: First version of the third page styles)
+=======
+>>>>>>> b1696fc (relace: :bookmark: First version of the second page styles)
+}
+@font-face {
+    font-family:Roboto Bold;
+    src: url(../storage/font/Roboto/Roboto-Bold.ttf);
+}
+@font-face {
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    font-family:Semibold;
+    src: url(../storage/font/SF-Pro-Text-Semibold.otf);
+=======
+    font-family:Roboto Medium;
+    src: url(../storage/font/Roboto/Roboto-Medium.ttf);
+}
+@font-face {
+    font-family:Semibold;
+    src: url(../storage/font/Cinzel/static/Cinzel-SemiBold.ttf);
+>>>>>>> f290bde (relace: :bookmark: First version of the first page styles)
+=======
+    font-family:Semibold;
+    src: url(../storage/font/SF-Pro-Text-Semibold.otf);
+>>>>>>> 9b79c03 (relace: :bookmark: First version of the third page styles)
+=======
+    font-family:Semibold;
+    src: url(../storage/font/SF-Pro-Text-Semibold.otf);
+>>>>>>> b1696fc (relace: :bookmark: First version of the second page styles)
+}
