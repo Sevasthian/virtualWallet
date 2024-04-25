@@ -1,0 +1,67 @@
+:root{
+<<<<<<< HEAD
+<<<<<<< HEAD
+    --color-1:#33404F;
+<<<<<<< HEAD
+    --color-1:#00DDA3;
+    --color-1:#B5C5C3;
+    --space-layout-padding-lr: 0px 15px;
+=======
+    --color-2:#00DDA3;
+    --color-3:#b5c5c3c2;
+    --color-4:white;
+    --color-5:rgb(254, 254, 254);
+    --color-6:#acb1b0;
+    --color-7:#E1FFEF;
+=======
+    --color-1:#006400;
+    --color-2:#002244;
+    --color-3:#666666;
+    --color-4:#FFFFFF;
+    --color-5:#FFFF99;
+    --color-6:#C0C0C0;
+    --color-7:#FFD700;
+>>>>>>> f7a7f97 (feat: :art: Colors and some designs were changed)
+=======
+    --color-1:#012B35;
+    --color-2:#7FBF90;
+    --color-3:#07123A;
+    --color-4:#FFFFFF;
+    --color-5:#4F9F64;
+    --color-6:#07123A;
+    --color-7:#004011;
+    --color-8:#e2f7de;
+<<<<<<< HEAD
+>>>>>>> 65ab3bf (style: :construction: Design edits were made but need to be finished)
+=======
+    --color-9:#145768;
+    --color-10:#bed6c5;
+>>>>>>> 8b7ef00 (style: :camera_flash: The pages were designed but a little more is missing)
+    --space-layout-padding-lr: 0px 25px;
+>>>>>>> 5cabfba (feat: :construction: I started making the second page, I already made the structure and the logo header, I added missing images)
+    --space-layout-padding-t: 5px; 
+}
+@font-face {
+    font-family:Bold ;
+    src: url(../storage/font/SF-Pro-Text-Bold.otf);
+}
+@font-face {
+    font-family: Heavy ;
+    src: url(../storage/font/SF-Pro-Text-Heavy.otf);
+}
+@font-face {
+    font-family:Light ;
+    src: url(../storage/font/SF-Pro-Text-Light.otf);
+}
+@font-face {
+    font-family:Medium;
+    src: url(../storage/font/SF-Pro-Text-Medium.otf);
+}
+@font-face {
+    font-family:Roboto Bold;
+    src: url(../storage/font/Roboto/Roboto-Bold.ttf);
+}
+@font-face {
+    font-family:Semibold;
+    src: url(../storage/font/SF-Pro-Text-Semibold.otf);
+}
