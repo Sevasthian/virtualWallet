@@ -9,7 +9,20 @@
     object-fit: cover;
     background-color: var(--color-1);
     position: relative;
+    padding: var(--space-layout-padding-lr);
     
+}
+.imgRight{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 60px;
+}
+.topLeft{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 60px;
 }
 .top{
     display: flex;
@@ -17,10 +30,12 @@
     align-items: center;
     justify-content: space-between;
     height: 60px;
-    padding: var(--space-layout-padding-lr);
+    padding-right: 15px;
 }
 #half{
-    left: 0;
+    
+
+    padding-left:15px ;
     font-size: 20px;
     color: var(--color-4);
     font-family: Bold;
@@ -31,27 +46,73 @@
     margin-left: 50%;
 }
 .half{
-    color: var(--color-4);
-    padding: var(--space-layout-padding-lr);
+    color: var(--color-4);    justify-content: space-between;
+
+    padding-bottom: 15px;
 }
 .ContainerBottom{
     color: var(--color-4);
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding: var(--space-layout-padding-lr);
+    gap: 30px;
+}
+.left {
+    display: flex;
+    flex-direction: column;
+    
+}
+.money{
+    display: flex;
+    align-items: center;
+}
+.money strong{
+    font-size: 28px;
+    font-family: Rotobo Bold;
+}
+.money span{
+    font-size: 18px;
+    font-family: Rotobo Medium;
+}
+.right {
+    display: flex;
+    flex-direction: column;
+
+}
+.article{
+    border-radius: 50%;
+    background-color: red;
 }
 .articleContainer{
     background-color: var(--color-5);
+    border: none;
+    border-radius: 20px 20px 0 0;
+    background-color: red;
+   
+    padding: 20px;
+    overflow-y: scroll;
 }
 .blockAccount{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: var(--color-4);
     width: 203.33px;
 }
 .blockHelp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: var(--color-4);
 }
 .blockPrivacy{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: var(--color-4);
+}
+.title{
+    font-size:40;
+    font-family: Bold;
 }
 .blocks{
     display: grid;
@@ -60,7 +121,7 @@
 }
 .transactions{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     padding: var(--space-layout-padding-lr);
 }
 .footer{
@@ -68,7 +129,9 @@
     bottom: 0;
     width: 100%;
 }
-.footer_ul{
+.footer_ul{ display: flex;
+    flex-direction: column;
+    align-items: center;
     background: var(--color-1);
     height: 100px;
     display: flex;
@@ -83,4 +146,9 @@
 .footer_ul a img{
     object-fit: contain;
     filter: grayscale(100%) invert(100%);
+}
+.transactionsContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }

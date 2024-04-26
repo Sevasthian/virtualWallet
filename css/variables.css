@@ -28,6 +28,10 @@
     src: url(../storage/font/Roboto/Roboto-Bold.ttf);
 }
 @font-face {
+    font-family:Roboto Medium;
+    src: url(../storage/font/Roboto/Roboto-Medium.ttf);
+}
+@font-face {
     font-family:Semibold;
     src: url(../storage/font/SF-Pro-Text-Semibold.otf);
 }
