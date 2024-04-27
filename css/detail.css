@@ -86,3 +86,49 @@
     border-radius: 50px 50px;
     font-size: 15px;
 }
+.main{
+    padding: var(--space-layout-padding-lr);
+}
+.ArticleCard{
+    display: flex;
+    flex-direction: row;
+    overflow: scroll;
+    gap: 15px;
+}
+.Card1{
+    background-color: var(--color-1);
+    background-image: url(../storage/img/detail/Ellipses.svg);
+    object-fit: fill;
+    padding: 25px;
+    border-radius: 20px;
+}
+.Card2{
+    background-color: var(--color-1);
+    background-image: url(../storage/img/detail/Ellipses.svg);
+    object-fit: contain;
+    padding: 25px;
+    border-radius: 20px;
+}
+.CardHalf{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-4);
+    font-family: Bold;
+    padding: 80px 40px;
+}
+.CardHalf span{
+    font-size: 35px;
+}
+.CardHalf small{
+    font-size: 23px;
+}
+.CardTop{
+    display: flex;
+    justify-content: space-between;
+    color: var(--color-4);
+    font-family: Semibold;
+}
+.CardLogo{
+    
+}
