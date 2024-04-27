@@ -16,10 +16,20 @@
 .headerLeft{
     display: flex;
     align-items: center;
+    font-family: Bold;
+    font-size: 18px;
     gap: 8px;
 }
 .HeaderTop{
     padding: var(--space-layout-padding-lr);
+    font-family: Bold;
+    font-size: 19px;
+
+}
+.HeaderTop h3{
+    margin-bottom: 15px;
+    margin-top: 25px;
+
 }
 .HeaderBottom{
     display: grid;
@@ -94,6 +104,7 @@
     flex-direction: row;
     overflow: scroll;
     gap: 15px;
+    padding-bottom: 105px;
 }
 .Card1{
     background-color: var(--color-1);
@@ -129,6 +140,50 @@
     color: var(--color-4);
     font-family: Semibold;
 }
-.CardLogo{
-    
+.Card2 .CardLogo{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: end;
+    position: relative;
+    transform: translateY(50%);
+}
+.Card1 .CardLogo{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: end;
+    position: relative;
+    transform: translateY(160%);
+}
+.Header2{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-family: Bold;
+    font-size: 19px;
+}
+
+
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.footer_ul{ display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: var(--color-1);
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.footer_ul a {
+    display: flex;
+}
+.footer_ul a #img{
+    object-fit: contain;
+    filter: grayscale(100%) invert(100%);
 }
