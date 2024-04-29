@@ -13,7 +13,6 @@
     
 }
 #imgLeft{ 
-    background-color: var(--color-7);
     border-radius: 50px;
 }
 .imgRight {
@@ -127,6 +126,7 @@
     align-items: center;
     justify-content: center;
     background-color: var(--color-2);
+    width: 110px;
     height: 170px;
     border-radius: 25px;
     text-decoration: none;
@@ -135,21 +135,22 @@
 }
 .blockArticle img{
     width: 60px;
-    filter: invert(1);
+    /* filter: invert(1); */
 }
 .title{
     font-size: 23px;
     font-family: Bold;
     padding: 25px;
-    color: var(--color-2);
+    color: var(--color-3);
 }
 .blocks{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(6, 1fr);
     padding: var(--space-layout-padding-lr);
-    color: var(--color-1);
+    color: var(--color-3);
     font-family: Semibold;
     gap: 20px;
+    overflow-x:scroll ;
 }
 .blocks span{
     margin-top: 15px;

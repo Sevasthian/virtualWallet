@@ -1,11 +1,11 @@
 :root{
-    --color-1:#006400;
-    --color-2:#002244;
-    --color-3:#666666;
-    --color-4:#FFFFFF;
-    --color-5:#FFFF99;
+    --color-1:#526B1B;
+    --color-2:#EFEBFF;
+    --color-3:#1E2B00;
+    --color-4:#1E2B00;
+    --color-5:#ffffff;
     --color-6:#C0C0C0;
-    --color-7:#FFD700;
+    --color-7:#79FFF5;
     --space-layout-padding-lr: 0px 25px;
     --space-layout-padding-t: 5px; 
 }
