@@ -37,7 +37,7 @@
     position: relative;
     border-radius: 45px;
     box-shadow: 0 0 32px var(--color-3);
-    padding: 0 20px;
+    padding: 20px 2px;
     overflow: hidden;
 }
 .pig{
@@ -46,7 +46,7 @@
     border-radius: 100%;
     width: 400px;
     height: 400px;
-    right: 58%;
+    right: 55%;
     top: -50%;
 }
 .imgPig{
