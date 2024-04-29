@@ -1,29 +1,29 @@
 :root{
-    --color-1:#526B1B;
-    --color-2:#EFEBFF;
-    --color-3:#1E2B00;
-    --color-4:#1E2B00;
-    --color-5:#ffffff;
-    --color-6:#C0C0C0;
-    --color-7:#79FFF5;
+    --color-1:#012B35;
+    --color-2:#7FBF90;
+    --color-3:#07123A;
+    --color-4:#7FBF90;
+    --color-5:#4F9F64;
+    --color-6:#07123A;
+    --color-7:#004011;
     --space-layout-padding-lr: 0px 25px;
     --space-layout-padding-t: 5px; 
 }
 @font-face {
     font-family:Bold ;
-    src: url(../storage/font/SF-Pro-Text-Bold.otf);
+    src: url(../storage/font/Cinzel/static/Cinzel-Bold.ttf);
 }
 @font-face {
     font-family: Heavy ;
-    src: url(../storage/font/SF-Pro-Text-Heavy.otf);
+    src: url(../storage/font/Cinzel/static/Cinzel-Regular.ttf);
 }
 @font-face {
     font-family:Light ;
-    src: url(../storage/font/SF-Pro-Text-Light.otf);
+    src: url(../storage/font/Cinzel/static/Cinzel-Black.ttf);
 }
 @font-face {
     font-family:Medium;
-    src: url(../storage/font/SF-Pro-Text-Medium.otf);
+    src: url(../storage/font/Cinzel/static/Cinzel-Medium.ttf);
 }
 @font-face {
     font-family:Roboto Bold;
@@ -35,5 +35,5 @@
 }
 @font-face {
     font-family:Semibold;
-    src: url(../storage/font/SF-Pro-Text-Semibold.otf);
+    src: url(../storage/font/Cinzel/static/Cinzel-SemiBold.ttf);
 }

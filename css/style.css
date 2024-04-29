@@ -130,8 +130,9 @@
     height: 170px;
     border-radius: 25px;
     text-decoration: none;
-    color: var(--color-4);
-    box-shadow: 0px 0px 20px 0px var(--color-7);
+    margin: 15px;
+    color: var(--color-7);
+    box-shadow: 0px 0px 20px 0px var(--color-2);
 }
 .blockArticle img{
     width: 60px;
@@ -147,7 +148,7 @@
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     padding: var(--space-layout-padding-lr);
-    color: var(--color-3);
+    color: var(--color-7);
     font-family: Semibold;
     gap: 20px;
     overflow-x:scroll ;
