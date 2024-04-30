@@ -58,6 +58,7 @@
     font-size: 36px;
     font-family: Heavy;
     padding-bottom: 4px;
+    color: var(--color-8);
 }
 .half span{
     font-size: 20px;
@@ -110,7 +111,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: var(--color-5);
+    background-color: var(--color-8);
     border: none;
     border-radius: 50px 50px 0 0;
     padding-top: 25px;
