@@ -16,7 +16,10 @@
     position: absolute;
     width: 600px;
     height: 600px;
-    background-color: var(--color-5);
+    background-image: url(../storage/img/checkout/Ellipse.svg);
+    background-color: var(--color-8);
+    background-size: cover;
+    background-repeat: no-repeat;
     object-fit: cover;
     border-radius: 100%;
     transform: translate(-17%, -65%);

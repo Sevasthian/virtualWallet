@@ -4,6 +4,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: var(--color-10);
+}
 .Header{
     display: flex;
     flex-direction: row;
@@ -12,6 +15,7 @@
     height: 55px;
     overflow: hidden;
     padding: var(--space-layout-padding-lr);
+    color: var(--color-1);
 }
 .headerLeft{
     display: flex;
@@ -24,6 +28,7 @@
     padding: var(--space-layout-padding-lr);
     font-family: Bold;
     font-size: 19px;
+    color: var(--color-1);
 
 }
 .HeaderTop h3{
@@ -39,6 +44,7 @@
     box-shadow: 0 0 32px var(--color-3);
     padding: 20px 2px;
     overflow: hidden;
+    background-color: var(--color-8);
 }
 .pig{
     position: absolute;
@@ -48,6 +54,7 @@
     height: 400px;
     right: 55%;
     top: -50%;
+    color: var(--color-1);
 }
 .imgPig{
     position: relative;
@@ -87,6 +94,11 @@
     align-items: center;
     justify-content: center;
 }
+#b1:hover{
+    transform: scale(1.01);
+    background-color: green;
+    
+}
 #b2{
     background-color: var(--color-2);
     border: none;
@@ -96,29 +108,49 @@
     border-radius: 50px 50px;
     font-size: 15px;
 }
+
+#b2:hover{
+    transform: scale(1.01);
+    background-color: green;
+    
+}
+
 .main{
     padding: var(--space-layout-padding-lr);
+    color: var(--color-1);
 }
 .ArticleCard{
     display: flex;
     flex-direction: row;
-    overflow: scroll;
+    overflow-x: scroll;
     gap: 15px;
-    padding-bottom: 105px;
+    padding-bottom: 110px;
 }
 .Card1{
     background-color: var(--color-1);
     background-image: url(../storage/img/detail/Ellipses.svg);
+    background-size: cover;
     object-fit: fill;
     padding: 25px;
     border-radius: 20px;
+    width: 300px;
+}
+.Card1:hover{
+    transform: scale(1.02);
+    background-color: var(--color-9);
 }
 .Card2{
     background-color: var(--color-1);
     background-image: url(../storage/img/detail/Ellipses.svg);
+    background-size: cover;
     object-fit: contain;
     padding: 25px;
     border-radius: 20px;
+    width: 300px;
+}
+.Card2:hover{
+    transform: scale(1.02);
+    background-color: var(--color-9);
 }
 .CardHalf{
     display: flex;
@@ -186,4 +218,23 @@
 .footer_ul a #img{
     object-fit: contain;
     filter: grayscale(100%) invert(100%);
+    
 }
+
+/* @media (max-width: 500px){
+    .ArticleCard {
+        display: flex;
+        flex-direction: row;
+        overflow-x: scroll;
+        gap: 15px;
+        padding-bottom: 105px;
+    }
+    .Card1 .CardLogo {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: end;
+        position: relative;
+        transform: translateY(20%);
+    }
+} */
